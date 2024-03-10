@@ -1,0 +1,95 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  background-color: #00337C;
+
+}
+div.main{
+position: relative;
+float: right;
+display: flex;
+flex-direction: row-reverse;
+text-align: center;
+}
+
+h3{
+  font-family: 'Satisfy', cursive;
+  margin: 20px;
+}
+p{
+  font-family: 'Dancing Script', cursive;
+  margin: 10px;
+}
+img{
+  height: 90px;
+  width: 70px;
+  border-radius: 100%;
+  margin: 50px;
+}
+div.box1{
+  width: 200px;
+  height: 500px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+div.box2{
+  width: 200px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+
+
+}
+div.box3{
+  width: 200px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+.box1:hover{
+  box-shadow: 10px   rgba(255,255,255,0.24);
+  margin-top: -10px;
+}
+.box2:hover{
+  box-shadow: 10px   rgba(255,255,255,0.24);
+  margin-top: -10px;
+}
+.box3:hover{
+  box-shadow: 10px   rgba(255,255,255,0.24);
+  margin-top: -10px;
+}
+div.icons{
+  font-size: 25px;
+  text-decoration: none;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+}
+ul{
+  list-style-type: none;
+  display: inline-flex;
+
+}
+li{
+  margin:12px;
+  margin-top: 12px;
+}
+a{
+  color:black;
+}
+.btn:hover{
+  color:#0081B4;
+
+}
